@@ -13,7 +13,7 @@ public class Main {
         GiantView giantView = new GiantView();
         GiantController giantController = new GiantController(giantView, giantModel);
         giantController.updateView();
-        giantController.setHealth(Health.HEATLTHY);
+        giantController.setHealth(Health.HEALTHY);
         giantController.updateView();
     }
 }
